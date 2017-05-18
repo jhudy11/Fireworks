@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A307141ECD532C006662F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A307131ECD532C006662F5 /* AppDelegate.swift */; };
+		49A307161ECD532D006662F5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49A307151ECD532D006662F5 /* GameScene.sks */; };
+		49A307181ECD532D006662F5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49A307171ECD532D006662F5 /* Actions.sks */; };
+		49A3071A1ECD532D006662F5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A307191ECD532D006662F5 /* GameScene.swift */; };
+		49A3071C1ECD532D006662F5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3071B1ECD532D006662F5 /* GameViewController.swift */; };
+		49A3071F1ECD532E006662F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A3071D1ECD532E006662F5 /* Main.storyboard */; };
+		49A307211ECD532E006662F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A307201ECD532E006662F5 /* Assets.xcassets */; };
+		49A307241ECD532E006662F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A307221ECD532E006662F5 /* LaunchScreen.storyboard */; };
+		49A3072F1ECD5332006662F5 /* FireworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3072E1ECD5332006662F5 /* FireworksTests.swift */; };
+		49A3073A1ECD5332006662F5 /* FireworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A307391ECD5332006662F5 /* FireworksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A3072B1ECD5331006662F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A307081ECD532C006662F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A3070F1ECD532C006662F5;
+			remoteInfo = Fireworks;
+		};
+		49A307361ECD5332006662F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A307081ECD532C006662F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A3070F1ECD532C006662F5;
+			remoteInfo = Fireworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49A307101ECD532C006662F5 /* Fireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fireworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A307131ECD532C006662F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49A307151ECD532D006662F5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		49A307171ECD532D006662F5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		49A307191ECD532D006662F5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		49A3071B1ECD532D006662F5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		49A3071E1ECD532E006662F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A307201ECD532E006662F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A307231ECD532E006662F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49A307251ECD532E006662F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A3072A1ECD5331006662F5 /* FireworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A3072E1ECD5332006662F5 /* FireworksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksTests.swift; sourceTree = "<group>"; };
+		49A307301ECD5332006662F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A307351ECD5332006662F5 /* FireworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireworksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A307391ECD5332006662F5 /* FireworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksUITests.swift; sourceTree = "<group>"; };
+		49A3073B1ECD5332006662F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A3070D1ECD532C006662F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A307271ECD5331006662F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A307321ECD5332006662F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A307071ECD532B006662F5 = {
+			isa = PBXGroup;
+			children = (
+				49A307121ECD532C006662F5 /* Fireworks */,
+				49A3072D1ECD5331006662F5 /* FireworksTests */,
+				49A307381ECD5332006662F5 /* FireworksUITests */,
+				49A307111ECD532C006662F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A307111ECD532C006662F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A307101ECD532C006662F5 /* Fireworks.app */,
+				49A3072A1ECD5331006662F5 /* FireworksTests.xctest */,
+				49A307351ECD5332006662F5 /* FireworksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A307121ECD532C006662F5 /* Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				49A307131ECD532C006662F5 /* AppDelegate.swift */,
+				49A307151ECD532D006662F5 /* GameScene.sks */,
+				49A307171ECD532D006662F5 /* Actions.sks */,
+				49A307191ECD532D006662F5 /* GameScene.swift */,
+				49A3071B1ECD532D006662F5 /* GameViewController.swift */,
+				49A3071D1ECD532E006662F5 /* Main.storyboard */,
+				49A307201ECD532E006662F5 /* Assets.xcassets */,
+				49A307221ECD532E006662F5 /* LaunchScreen.storyboard */,
+				49A307251ECD532E006662F5 /* Info.plist */,
+			);
+			path = Fireworks;
+			sourceTree = "<group>";
+		};
+		49A3072D1ECD5331006662F5 /* FireworksTests */ = {
+			isa = PBXGroup;
+			children = (
+				49A3072E1ECD5332006662F5 /* FireworksTests.swift */,
+				49A307301ECD5332006662F5 /* Info.plist */,
+			);
+			path = FireworksTests;
+			sourceTree = "<group>";
+		};
+		49A307381ECD5332006662F5 /* FireworksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49A307391ECD5332006662F5 /* FireworksUITests.swift */,
+				49A3073B1ECD5332006662F5 /* Info.plist */,
+			);
+			path = FireworksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A3070F1ECD532C006662F5 /* Fireworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A3073E1ECD5332006662F5 /* Build configuration list for PBXNativeTarget "Fireworks" */;
+			buildPhases = (
+				49A3070C1ECD532C006662F5 /* Sources */,
+				49A3070D1ECD532C006662F5 /* Frameworks */,
+				49A3070E1ECD532C006662F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fireworks;
+			productName = Fireworks;
+			productReference = 49A307101ECD532C006662F5 /* Fireworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49A307291ECD5331006662F5 /* FireworksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A307411ECD5332006662F5 /* Build configuration list for PBXNativeTarget "FireworksTests" */;
+			buildPhases = (
+				49A307261ECD5331006662F5 /* Sources */,
+				49A307271ECD5331006662F5 /* Frameworks */,
+				49A307281ECD5331006662F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A3072C1ECD5331006662F5 /* PBXTargetDependency */,
+			);
+			name = FireworksTests;
+			productName = FireworksTests;
+			productReference = 49A3072A1ECD5331006662F5 /* FireworksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49A307341ECD5332006662F5 /* FireworksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A307441ECD5332006662F5 /* Build configuration list for PBXNativeTarget "FireworksUITests" */;
+			buildPhases = (
+				49A307311ECD5332006662F5 /* Sources */,
+				49A307321ECD5332006662F5 /* Frameworks */,
+				49A307331ECD5332006662F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A307371ECD5332006662F5 /* PBXTargetDependency */,
+			);
+			name = FireworksUITests;
+			productName = FireworksUITests;
+			productReference = 49A307351ECD5332006662F5 /* FireworksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A307081ECD532C006662F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ParanoidPenguinProductions;
+				TargetAttributes = {
+					49A3070F1ECD532C006662F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FV58CK5TAD;
+						ProvisioningStyle = Automatic;
+					};
+					49A307291ECD5331006662F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FV58CK5TAD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49A3070F1ECD532C006662F5;
+					};
+					49A307341ECD5332006662F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FV58CK5TAD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49A3070F1ECD532C006662F5;
+					};
+				};
+			};
+			buildConfigurationList = 49A3070B1ECD532C006662F5 /* Build configuration list for PBXProject "Fireworks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A307071ECD532B006662F5;
+			productRefGroup = 49A307111ECD532C006662F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A3070F1ECD532C006662F5 /* Fireworks */,
+				49A307291ECD5331006662F5 /* FireworksTests */,
+				49A307341ECD5332006662F5 /* FireworksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A3070E1ECD532C006662F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A3071F1ECD532E006662F5 /* Main.storyboard in Resources */,
+				49A307161ECD532D006662F5 /* GameScene.sks in Resources */,
+				49A307211ECD532E006662F5 /* Assets.xcassets in Resources */,
+				49A307241ECD532E006662F5 /* LaunchScreen.storyboard in Resources */,
+				49A307181ECD532D006662F5 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A307281ECD5331006662F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A307331ECD5332006662F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A3070C1ECD532C006662F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A3071A1ECD532D006662F5 /* GameScene.swift in Sources */,
+				49A3071C1ECD532D006662F5 /* GameViewController.swift in Sources */,
+				49A307141ECD532C006662F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A307261ECD5331006662F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A3072F1ECD5332006662F5 /* FireworksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A307311ECD5332006662F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A3073A1ECD5332006662F5 /* FireworksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A3072C1ECD5331006662F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A3070F1ECD532C006662F5 /* Fireworks */;
+			targetProxy = 49A3072B1ECD5331006662F5 /* PBXContainerItemProxy */;
+		};
+		49A307371ECD5332006662F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A3070F1ECD532C006662F5 /* Fireworks */;
+			targetProxy = 49A307361ECD5332006662F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A3071D1ECD532E006662F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A3071E1ECD532E006662F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A307221ECD532E006662F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A307231ECD532E006662F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A3073C1ECD5332006662F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49A3073D1ECD5332006662F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A3073F1ECD5332006662F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = Fireworks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ParanoidPenguinProductions.Fireworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49A307401ECD5332006662F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = Fireworks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ParanoidPenguinProductions.Fireworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49A307421ECD5332006662F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = FireworksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ParanoidPenguinProductions.FireworksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fireworks.app/Fireworks";
+			};
+			name = Debug;
+		};
+		49A307431ECD5332006662F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = FireworksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ParanoidPenguinProductions.FireworksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fireworks.app/Fireworks";
+			};
+			name = Release;
+		};
+		49A307451ECD5332006662F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = FireworksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ParanoidPenguinProductions.FireworksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fireworks;
+			};
+			name = Debug;
+		};
+		49A307461ECD5332006662F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = FireworksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ParanoidPenguinProductions.FireworksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fireworks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A3070B1ECD532C006662F5 /* Build configuration list for PBXProject "Fireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A3073C1ECD5332006662F5 /* Debug */,
+				49A3073D1ECD5332006662F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A3073E1ECD5332006662F5 /* Build configuration list for PBXNativeTarget "Fireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A3073F1ECD5332006662F5 /* Debug */,
+				49A307401ECD5332006662F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49A307411ECD5332006662F5 /* Build configuration list for PBXNativeTarget "FireworksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A307421ECD5332006662F5 /* Debug */,
+				49A307431ECD5332006662F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49A307441ECD5332006662F5 /* Build configuration list for PBXNativeTarget "FireworksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A307451ECD5332006662F5 /* Debug */,
+				49A307461ECD5332006662F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A307081ECD532C006662F5 /* Project object */;
+}
